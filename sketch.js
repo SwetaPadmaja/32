@@ -69,7 +69,7 @@ function setup() {
 
 }
 function draw() {
-  background(0);
+  //background(0);
   if(backgroundImg)
     background(backgroundImg);
   //Engine.update(engine);
@@ -170,7 +170,8 @@ async function getBackgroundImage(){
 
    if (hour >= 06 && hour <= 18) {
      bg = "light.jpg";
-   } else {
+   } else 
+   {
      bg = "dark.jpg";
    }
 
