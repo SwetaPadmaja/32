@@ -69,7 +69,7 @@ function setup() {
 
 }
 function draw() {
-  //background(56,44,44); 
+  background(0);
   if(backgroundImg)
     background(backgroundImg);
   //Engine.update(engine);
