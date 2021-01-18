@@ -71,7 +71,9 @@ function setup() {
 function draw() {
   //background(0);
   if(backgroundImg)
-    background(backgroundImg);
+  {
+    background.addImage(backgroundImg);
+  }
   //Engine.update(engine);
   text(mouseX + ',' + mouseY, 10, 15);
   textSize(20);
